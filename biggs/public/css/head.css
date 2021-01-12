@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+}
+
+.navbar .left-side h2 {
+  margin-left: 10px;
+}
+
+.navbar .right-side a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: lightgray;
+}
+
+.signup-form {
+  width: 300px;
+  height: 400px;
+  border: 1px solid black;
+  margin: auto;
+  text-align: center;
+}
+
+.signup-form form {
+  text-align: center;
+}
+
+.signup-form form input {
+  margin-bottom: 10px;
+  text-align: center;
+}
+/*# sourceMappingURL=head.css.map */
